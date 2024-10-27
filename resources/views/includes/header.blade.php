@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Prism TecHub - Technical Solution of Idea</title>
+    <title>PrismTecHub - Technical Solution of Idea</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -65,16 +65,16 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="{{URL::to('/')}}" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="match-color m-0"><img class="me-3" src="{{ asset('img/icons/icon-1.png')}}" alt="Icon">Prism TecHub</h1>
+            <h1 class="match-color m-0"><img class="me-3" src="{{ asset('img/icons/icon-1.png')}}" alt="Icon">PrismTecHub</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="{{route('about')}}" class="nav-item nav-link">About</a>
-                <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
+                <a href="{{URL::to('/')}}" class="nav-item nav-link{{ empty(Route::currentRouteName()) ? ' active':'' }}">Home</a>
+                <a href="{{route('about')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'about' ? ' active':'' }}">About</a>
+                <a href="{{route('service')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'service' ? ' active':'' }}">Services</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu border-0 m-0">
@@ -83,7 +83,7 @@
                         <a href="{{route('testimonial')}}" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
-                <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
+                <a href="{{route('contact')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'contact' ? ' active':'' }}">Contact</a>
             </div>
         </div>
     </nav>

@@ -17,14 +17,15 @@
       </div>
       <div class="col-lg-3 col-md-6">
         <h3 class="text-light mb-4">Services</h3>
-        <a class="btn btn-link text-decoration-none" href="">Architecture</a>
-        <a class="btn btn-link text-decoration-none" href="">Construction</a>
+        <a class="btn btn-link text-decoration-none" href="{{route('web-design')}}">Web Design</a>
+        <a class="btn btn-link text-decoration-none" href="{{route('web-development')}}">Web Development</a>
+        <a class="btn btn-link text-decoration-none" href="{{route('chatgpt')}}">chatGPT Development</a>
       </div>
       <div class="col-lg-3 col-md-6">
         <h3 class="text-light mb-4">Quick Links</h3>
-        <a class="btn btn-link text-decoration-none" href="">About Us</a>
-        <a class="btn btn-link text-decoration-none" href="">Contact Us</a>
-        <a class="btn btn-link text-decoration-none" href="">Terms & Condition</a>
+        <a class="btn btn-link text-decoration-none" href="{{route('about')}}">About Us</a>
+        <a class="btn btn-link text-decoration-none" href="{{route('contact')}}">Contact Us</a>
+        <a class="btn btn-link text-decoration-none" href="{{route('terms')}}">Terms & Condition</a>
       </div>
       <div class="col-lg-3 col-md-6">
         <h3 class="text-light mb-4">Newsletter</h3>

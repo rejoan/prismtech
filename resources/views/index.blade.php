@@ -11,7 +11,7 @@
             <div class="col-10 col-lg-8">
               <h1 class="display-1 text-white animated slideInDown">Web & Desktop Development Services</h1>
               <p class="fs-5 fw-medium text-white mb-4 pb-3">Web and Desktop Solutions for Modern Businesses with Seamless Integration.</p>
-              <a href="" class="btn text-white match-color-bg py-3 px-5 animated slideInLeft">Read More</a>
+              <a href="{{route('service')}}" class="btn text-white match-color-bg py-3 px-5 animated slideInLeft">Read More</a>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
             <img src="img/icons/icon-3.png" alt="Icon">
           </div>
           <h3 class="mb-3">Innovative Solutions</h3>
-          <p class="mb-0">Think AI-driven chatbots for instant customer service, or progressive web apps (PWAs) that give a native app experience without needing downloads. These cutting-edge approaches are reshaping how developers build and maintain modern websites, making them faster, more efficient, and user-friendly. Cool, right?.</p>
+          <p class="mb-0">Think AI-driven chatbots for instant customer service, or progressive web apps (PWAs) that give a native app experience without needing downloads. These cutting-edge approaches are reshaping how developers build and maintain modern websites, making them faster, more efficient, and user-friendly.</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -78,7 +78,7 @@
             <img src="img/icons/icon-4.png" alt="Icon">
           </div>
           <h3 class="mb-3">Project Management</h3>
-          <p class="mb-0">Gathering requirements and defining the project scope. Agile methodologies, like Scrum for iterative development. Effective communication is key, ensuring that the team stays on the same page. Milestones are tracked, and progress is continuously monitored, allowing for flexibility and adjustments as needed. It’s all about delivering a high-quality product, on time, and within budget.</p>
+          <p class="mb-0">Gathering requirements and defining the project scope. Agile methodologies, like Scrum for iterative development. Effective communication is key, ensuring that the team stays on the same page. Milestones are tracked, and progress is continuously monitored, allowing for flexibility and adjustments as needed.</p>
         </div>
       </div>
     </div>
@@ -91,7 +91,6 @@
   <div class="container">
     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
       <h4 class="section-title">Our Services</h4>
-      <h1 class="display-5 mb-4">We Focused On Modern Architecture And Interior Design</h1>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -99,9 +98,9 @@
           <img class="bg-img" src="img/service-1.jpg" alt="">
           <div class="service-text p-5">
             <img class="mb-4" src="img/icons/icon-5.png" alt="Icon">
-            <h3 class="mb-3">Architecture</h3>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h3 class="mb-3">Web Design</h3>
+            <p class="mb-4">We create stunning, responsive websites that reflect your brand’s identity and drive business growth. Whether you need a sleek corporate site or a vibrant e-commerce platform, we’ve got you covered. Transform your online presence with us today.</p>
+            <a class="btn" href="{{route('web-design')}}"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
           </div>
         </div>
       </div>
@@ -110,9 +109,9 @@
           <img class="bg-img" src="img/service-2.jpg" alt="">
           <div class="service-text p-5">
             <img class="mb-4" src="img/icons/icon-6.png" alt="Icon">
-            <h3 class="mb-3">3D Animation</h3>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h3 class="mb-3">Web Application Development</h3>
+            <p class="mb-4">We bring your ideas to life with custom web applications designed to fit your business needs perfectly. Our skilled developers use the latest technologies to create robust, scalable, and user-friendly applications that drive efficiency and enhance user experiences.</p>
+            <a class="btn" href="{{route('web-development')}}"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
           </div>
         </div>
       </div>
@@ -121,9 +120,9 @@
           <img class="bg-img" src="img/service-3.jpg" alt="">
           <div class="service-text p-5">
             <img class="mb-4" src="img/icons/icon-7.png" alt="Icon">
-            <h3 class="mb-3">House Planning</h3>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h3 class="mb-3">Desktop Application</h3>
+            <p class="mb-4">We excel in creating high-performance desktop applications tailored to meet your business requirements. Our expert developers harness the power of the latest technologies to build secure, efficient, and user-friendly software.</p>
+            <a class="btn" href="{{route('desktop-development')}}"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
           </div>
         </div>
       </div>
@@ -132,9 +131,9 @@
           <img class="bg-img" src="img/service-4.jpg" alt="">
           <div class="service-text p-5">
             <img class="mb-4" src="img/icons/icon-8.png" alt="Icon">
-            <h3 class="mb-3">Interior Design</h3>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h3 class="mb-3">chatGPT Development</h3>
+            <p class="mb-4">We specialize in leveraging the power of AI to create advanced conversational solutions. From chatbots to virtual assistants, we tailor each solution to fit your business needs, ensuring seamless integration and exceptional user experiences.</p>
+            <a class="btn" href="{{route('chatgpt')}}"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
           </div>
         </div>
       </div>
@@ -143,9 +142,9 @@
           <img class="bg-img" src="img/service-5.jpg" alt="">
           <div class="service-text p-5">
             <img class="mb-4" src="img/icons/icon-9.png" alt="Icon">
-            <h3 class="mb-3">Renovation</h3>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h3 class="mb-3">WordPress Development</h3>
+            <p class="mb-4">We're experts in crafting bespoke WordPress websites that elevate your online presence. From custom themes and plugins to seamless e-commerce solutions, we ensure your WordPress site stands out and performs flawlessly.</p>
+            <a class="btn" href="{{route('wordpress-development')}}"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
           </div>
         </div>
       </div>
@@ -154,9 +153,9 @@
           <img class="bg-img" src="img/service-6.jpg" alt="">
           <div class="service-text p-5">
             <img class="mb-4" src="img/icons/icon-10.png" alt="Icon">
-            <h3 class="mb-3">Construction</h3>
-            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
+            <h3 class="mb-3">Laravel Application</h3>
+            <p class="mb-4">We excel in developing powerful, scalable web applications using the Laravel framework. From complex enterprise applications to dynamic e-commerce sites, we tailor each project to meet your specific needs.</p>
+            <a class="btn" href="{{route('laravel-development')}}"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
           </div>
         </div>
       </div>
@@ -164,86 +163,6 @@
   </div>
 </div>
 <!-- Service End -->
-
-
-<!-- Appointment Start -->
-<div class="container-xxl py-5">
-  <div class="container">
-    <div class="row g-5">
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-        <h4 class="section-title">Appointment</h4>
-        <h1 class="display-5 mb-4">Make An Appointment To Start Your Dream Project</h1>
-        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-        <div class="row g-4">
-          <div class="col-12">
-            <div class="d-flex">
-              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
-                <i class="fa fa-2x fa-phone-alt text-primary"></i>
-              </div>
-              <div class="ms-4">
-                <p class="mb-2">Call Us Now</p>
-                <h3 class="mb-0">+012 345 6789</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="d-flex">
-              <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
-                <i class="fa fa-2x fa-envelope-open text-primary"></i>
-              </div>
-              <div class="ms-4">
-                <p class="mb-2">Mail Us Now</p>
-                <h3 class="mb-0">info@example.com</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row g-3">
-          <div class="col-12 col-sm-6">
-            <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
-          </div>
-          <div class="col-12 col-sm-6">
-            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
-          </div>
-          <div class="col-12 col-sm-6">
-            <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
-          </div>
-          <div class="col-12 col-sm-6">
-            <select class="form-select" style="height: 55px;">
-              <option selected>Choose Service</option>
-              <option value="1">Service 1</option>
-              <option value="2">Service 2</option>
-              <option value="3">Service 3</option>
-            </select>
-          </div>
-          <div class="col-12 col-sm-6">
-            <div class="date" id="date" data-target-input="nearest">
-              <input type="text"
-                     class="form-control datetimepicker-input"
-                     placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-            </div>
-          </div>
-          <div class="col-12 col-sm-6">
-            <div class="time" id="time" data-target-input="nearest">
-              <input type="text"
-                     class="form-control datetimepicker-input"
-                     placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-            </div>
-          </div>
-          <div class="col-12">
-            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-          </div>
-          <div class="col-12">
-            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Appointment End -->
 
 <!-- Testimonial Start -->
 <div class="container-xxl py-5">

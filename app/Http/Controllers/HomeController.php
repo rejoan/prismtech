@@ -10,24 +10,24 @@ class HomeController extends Controller {
     return view('index');
   }
 
-  public function about() {
-    return view('pages.about');
+  public function about(Request $request) {
+    return view('pages.about',['request' => $request]);
   }
 
-  public function service() {
-    return view('pages.service');
+  public function service(Request $request) {
+    return view('pages.service',['request' => $request]);
   }
 
-  public function projects() {
-    return view('pages.projects');
+  public function projects(Request $request) {
+    return view('pages.projects',['request' => $request]);
   }
 
-  public function contact() {
-    return view('pages.contact');
+  public function contact(Request $request) {
+    return view('pages.contact',['request' => $request]);
   }
 
-  public function team() {
-    return view('pages.team');
+  public function team(Request $request) {
+    return view('pages.team',['request' => $request]);
   }
 
   public function testimonial() {
