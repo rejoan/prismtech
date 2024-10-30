@@ -70,8 +70,8 @@
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="feature-img">
-          <img class="img-fluid" src="img/about-2.jpg" alt="">
-          <img class="img-fluid" src="img/about-1.jpg" alt="">
+          <img class="img-fluid" src="img/innovative.jpg" alt="">
+          <img class="img-fluid" src="img/project-manage.jpg" alt="">
         </div>
       </div>
     </div>
