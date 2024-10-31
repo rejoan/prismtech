@@ -75,14 +75,8 @@
                 <a href="{{URL::to('/')}}" class="nav-item nav-link{{ empty(Route::currentRouteName()) ? ' active':'' }}">Home</a>
                 <a href="{{route('about')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'about' ? ' active':'' }}">About</a>
                 <a href="{{route('service')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'service' ? ' active':'' }}">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="{{route('portfolio')}}" class="dropdown-item">Our Projects</a>
-                        <a href="{{route('team')}}" class="dropdown-item">Team Members</a>
-                        <a href="{{route('testimonial')}}" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
+                <a href="{{route('testimonial')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'testimonial' ? ' active':'' }}">Testimonial</a>
+                
                 <a href="{{route('contact')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'contact' ? ' active':'' }}">Contact</a>
             </div>
         </div>

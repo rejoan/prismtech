@@ -30,7 +30,7 @@ class HomeController extends Controller {
     return view('pages.team',['request' => $request]);
   }
 
-  public function testimonial() {
-    return view('pages.testimonial');
+  public function testimonial(Request $request) {
+    return view('pages.testimonial',['request' => $request]);
   }
 }
