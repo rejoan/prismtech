@@ -2,11 +2,14 @@
 @include('includes.pheader')
 <div class="container-xxl py-5">
   <div class="container">
-    <div class="row g-5">
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-        <h4 class="section-title">chatGPT Development</h4>
-        <p class="mb-4">we specialize in leveraging the power of AI to create advanced conversational solutions. Our team excels in developing custom ChatGPT applications that enhance user engagement and streamline communication processes. From chatbots to virtual assistants, we tailor each solution to fit your business needs, ensuring seamless integration and exceptional user experiences. Trust us to bring the next level of AI-driven innovation to your business</p>
-
+    <div class="row g-5 mt-2">
+      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+        <img class="img-fluid border" src="{{asset('img/chatgpt.jpg')}}" alt="">
+      </div>
+      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+        <h4 class="section-title">chatGPT</h4>
+        <h1 class="display-5 mb-4">chatGPT OpenAI Assistant API</h1>
+        <p>UCMG sought a professional digital solution capable of meeting the diverse needs of all users, including staff, doctors, nurses, and patients. The existing processes relied on manual tasks and an outdated system that involved physical medical cards and manual data entry. Consequently, real-time information updates were lacking, leading to communication delays and a lack of transparency in the operational workflow.</p>
       </div>
     </div>
   </div>

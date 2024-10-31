@@ -18,7 +18,7 @@ foreach($rArr as $k => $v){
       <ol class="breadcrumb text-uppercase mb-0">
         <li class="breadcrumb-item"><a class="text-white" href="{{URL::to('/')}}">Home</a></li>
         @if(!empty($prefix))
-        <li class="breadcrumb-item"><a class="text-white" href="{{route($route)}}">{{$prefix}}</a></li>
+        <li class="breadcrumb-item"><a class="text-white" href="{{route($prefix)}}">{{$prefix}}</a></li>
         @endif
         <li class="breadcrumb-item"><a class="text-white" href="{{route($route)}}">{{$str}}</a></li>
 
