@@ -77,6 +77,9 @@
                 <textarea name="message" class="form-control shadow-none" placeholder="Leave a message here" id="message" style="height: 100px">{{ old('message') }}</textarea>
                 <label for="message">Message</label>
               </div>
+              @error('message')
+              <div class="alert alert-danger">{{ $message }}</div>
+              @enderror
             </div>
             <div class="col-12">
               <input name="submit" class="btn btn-primary w-100 py-3" type="submit" value="Send Message">
