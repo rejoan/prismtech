@@ -40,35 +40,46 @@
         </div>
       </div>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-        <form>
+        @if (session('msg'))
+        <div class="alert alert-success">
+          {{ session('msg') }}
+        </div>
+        @endif
+        <form action="{{route('contact-submit')}}" method="POST">
+          @csrf
           <div class="row g-3">
             <div class="col-md-6">
               <div class="form-floating">
-                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                <input name="sender_name" type="text" class="form-control shadow-none" id="name" placeholder="Your Name" value="{{ old('sender_name') }}">
+                @error('sender_name')
+                <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
                 <label for="name">Your Name</label>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-floating">
-                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                <input name="email" type="email" class="form-control shadow-none" id="email" placeholder="Your Email" value="{{ old('email') }}">
+                @error('email')
+                <div class="alert alert-danger">{{ $message }}</div>
+                @enderror
                 <label for="email">Your Email</label>
               </div>
             </div>
             <div class="col-12">
               <div class="form-floating">
-                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                <input name="subject" type="text" class="form-control shadow-none" id="subject" placeholder="Subject" value="{{ old('subject') }}">
                 <label for="subject">Subject</label>
               </div>
             </div>
             <div class="col-12">
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                <textarea name="message" class="form-control shadow-none" placeholder="Leave a message here" id="message" style="height: 100px">{{ old('message') }}</textarea>
                 <label for="message">Message</label>
               </div>
             </div>
             <div class="col-12">
-              <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+              <input name="submit" class="btn btn-primary w-100 py-3" type="submit" value="Send Message">
             </div>
           </div>
         </form>

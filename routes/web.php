@@ -9,6 +9,7 @@ Route::get('about', [HomeController::class, 'about'])->name('about');
 Route::get('service', [HomeController::class, 'service'])->name('service');
 Route::get('portfolio', [HomeController::class, 'projects'])->name('portfolio');
 Route::get('contact', [HomeController::class, 'contact'])->name('contact');
+Route::post('contact-submit', [HomeController::class, 'contact'])->name('contact-submit');
 Route::get('team', [HomeController::class, 'team'])->name('team');
 Route::get('testimonial', [HomeController::class, 'testimonial'])->name('testimonial');
 

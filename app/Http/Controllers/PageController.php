@@ -29,6 +29,6 @@ class PageController extends Controller {
   }
 
   public function terms(Request $request) {
-    return view('single.terms',['request' => $request]);
+    return view('single.term',['request' => $request]);
   }
 }

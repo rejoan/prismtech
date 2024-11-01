@@ -4,143 +4,34 @@
 <div class="container-xxl py-5">
   <div class="container">
     <div class="row g-5">
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <div class="about-img">
-          <img class="img-fluid" src="img/about-1.jpg" alt="">
-          <img class="img-fluid" src="img/about-2.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <h4 class="section-title">About Us</h4>
-        <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1>
-        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-        <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-        <div class="d-flex align-items-center mb-5">
-          <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style="width: 120px; height: 120px;">
-            <h1 class="display-1 mb-n2" data-toggle="counter-up">25</h1>
-          </div>
-          <div class="ps-4">
-            <h3>Years</h3>
-            <h3>Working</h3>
-            <h3 class="mb-0">Experience</h3>
-          </div>
-        </div>
-        <a class="btn btn-primary py-3 px-5" href="">Read More</a>
+      <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
+        <h4 class="section-title">Terms & Conditions</h4>
+        <h3>Terms and Conditions for PrismTechub</h3>
+
+        <p><strong>Introduction</strong> Welcome to PrismTechub! These terms and conditions outline the rules and regulations for the use of our software development services. By accessing and using our services, you agree to comply with these terms.</p>
+
+        <p><strong>Services</strong> PrismTechub provides software development services, including web, desktop, and mobile application development. All services are delivered as per the agreed-upon specifications and timelines.</p>
+
+        <p><strong>Confidentiality</strong> We prioritize the confidentiality of your information. All data shared with us will be handled with the utmost care and used solely for the purpose of delivering the agreed services.
+
+        <p><strong>Intellectual Property</strong> All intellectual property rights related to the developed software and services provided by PrismTechub will remain with us until full payment is received. Upon payment, ownership will be transferred to the client.</p>
+
+        <p><strong>Payments</strong> Payment terms will be outlined in the service agreement. Delays in payments may result in a hold on project deliverables.</p>
+
+        <p><strong>Limitation of Liability</strong> PrismTechub will not be liable for any indirect, incidental, or consequential damages arising from the use of our services. Our liability is limited to the amount paid by the client for the service.</p>
+
+        <p><strong>Termination</strong> Either party may terminate the agreement with written notice if the other party breaches any material term of the agreement.</p>
+
+        <p><strong>Governing Law</strong> These terms and conditions are governed by and construed in accordance with the laws of BD. Any disputes will be resolved in the competent courts of BD.</p>
+
+        <p><strong>Changes to Terms</strong> PrismTechub reserves the right to modify these terms at any time. Clients will be notified of any changes, and continued use of our services will be considered acceptance of the new terms.</p>
+
+        <p>For any questions or concerns regarding these terms and conditions, please contact us at contact@prismtechub.com.</p>
+
+        <p>Your satisfaction is our priority, so let’s make great things together!</p>
+        
       </div>
     </div>
   </div>
 </div>
-<!-- About End -->
-
-
-<!-- Feature Start -->
-<div class="container-xxl py-5">
-  <div class="container">
-    <div class="row g-5">
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-        <h4 class="section-title">Why Choose Us!</h4>
-        <h1 class="display-5 mb-4">Why You Should Trust Us? Learn More About Us!</h1>
-        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-        <div class="row g-4">
-          <div class="col-12">
-            <div class="d-flex align-items-start">
-              <img class="flex-shrink-0" src="img/icons/icon-2.png" alt="Icon">
-              <div class="ms-4">
-                <h3>Design Approach</h3>
-                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="d-flex align-items-start">
-              <img class="flex-shrink-0" src="img/icons/icon-3.png" alt="Icon">
-              <div class="ms-4">
-                <h3>Innovative Solutions</h3>
-                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="d-flex align-items-start">
-              <img class="flex-shrink-0" src="img/icons/icon-4.png" alt="Icon">
-              <div class="ms-4">
-                <h3>Project Management</h3>
-                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="feature-img">
-          <img class="img-fluid" src="img/about-2.jpg" alt="">
-          <img class="img-fluid" src="img/about-1.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Feature End -->
-
-
-<!-- Team Start -->
-<div class="container-xxl py-5">
-  <div class="container">
-    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-      <h4 class="section-title">Team Members</h4>
-      <h1 class="display-5 mb-4">We Are Creative Architecture Team For Your Dream Home</h1>
-    </div>
-    <div class="row g-0 team-items">
-      <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="team-item position-relative">
-          <div class="position-relative">
-            <img class="img-fluid" src="img/team-2.jpg" alt="">
-            <div class="team-social text-center">
-              <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="bg-light text-center p-4">
-            <h3 class="mt-2">Architect Name</h3>
-            <span class="text-primary">Designation</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="team-item position-relative">
-          <div class="position-relative">
-            <img class="img-fluid" src="img/team-3.jpg" alt="">
-            <div class="team-social text-center">
-              <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="bg-light text-center p-4">
-            <h3 class="mt-2">Architect Name</h3>
-            <span class="text-primary">Designation</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-        <div class="team-item position-relative">
-          <div class="position-relative">
-            <img class="img-fluid" src="img/team-4.jpg" alt="">
-            <div class="team-social text-center">
-              <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="bg-light text-center p-4">
-            <h3 class="mt-2">Architect Name</h3>
-            <span class="text-primary">Designation</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Team End -->
 @include('includes.footer')
