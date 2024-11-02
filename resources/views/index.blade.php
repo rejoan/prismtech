@@ -187,7 +187,9 @@
         <h3>Andrew Caborn</h3>
         <span class="text-primary">Owner, QuestBarReview</span>
       </div>
-    </div>      
+    </div>
+
+    <p class="text-center"><a class="btn btn-sm btn-dark" href="{{route('testimonial')}}"><i class="fa fa-plus text-warning me-3"></i>Check More</a></p>    
   </div>
 </div>
 <!-- Testimonial End -->
