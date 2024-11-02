@@ -9,7 +9,7 @@
     <meta content="{{$meta['description']}}" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon/favicon.ico" rel="icon">
+    <link href="{{asset('img/favicon/favicon.ico')}}" rel="icon">
 
     <!-- Icon Font Stylesheet -->
     <link href="{{ asset('libs/fontawesome/css/all.min.css') }}" rel="stylesheet">

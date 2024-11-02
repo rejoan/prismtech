@@ -23,6 +23,12 @@
         <h3>Andrew Caborn</h3>
         <span class="text-primary">Owner, QuestBarReview</span>
       </div>
+      
+      <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/jim.jpg' alt=''>">
+        <p class="fs-5">We needed a quick wordpress plugin, and the results were perfect. Exactly what we needed in less time than expected. We couldn't be happier.</p>
+        <h3>Jim Sullivan</h3>
+        <span class="text-primary">Owner, eDiscoveryAI.com</span>
+      </div>
     </div>      
   </div>
 </div>
