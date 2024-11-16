@@ -320,13 +320,22 @@ h6,
     object-fit: cover;
     z-index: -1;
 }
-
+.row div.fadeInUp{
+  background: #745537;
+}
 .service-item .service-text {
-    background: var(--light);
     transition: .5s;
 }
-
-.service-item:hover .service-text {
+.service-text h3{
+  color:#fff;
+}
+div.wow a{
+  text-decoration: none;
+}
+.service-text img{
+  filter:brightness(0) invert(1);
+}
+.row div.fadeInUp:hover {
     background: rgba(0, 0, 0, .7);
 }
 
