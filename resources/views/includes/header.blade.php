@@ -72,10 +72,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{URL::to('/')}}" class="nav-item nav-link{{ empty(Route::currentRouteName()) ? ' active':'' }}">Home</a>
-                <a href="{{route('about')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'about' ? ' active':'' }}">About</a>
                 <a href="{{route('service')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'service' ? ' active':'' }}">Services</a>
-                <a href="{{route('testimonial')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'testimonial' ? ' active':'' }}">Testimonial</a>
-                
+                <a href="{{route('team')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'team' ? ' active':'' }}">Our Talents</a>
+                <a href="{{route('portfolio')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'portfolio' ? ' active':'' }}">Portfolio & Feedback</a>
+                <a href="{{route('about')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'about' ? ' active':'' }}">About Us</a>
                 <a href="{{route('contact')}}" class="nav-item nav-link{{ Route::currentRouteName() == 'contact' ? ' active':'' }}">Contact</a>
             </div>
         </div>

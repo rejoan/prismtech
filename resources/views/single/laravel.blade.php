@@ -18,7 +18,7 @@
       </div>
       <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
         <h4 class="section-title">language Learning System</h4>
-        <p> Rosetta Stone Language score API integration. Oauth2 API development for authorization in laravel. Advanced Vuejs implementation for microphone setting</p>
+        <p>Rosetta Stone Language score API integration. Oauth2 API development for authorization in laravel. Advanced Vuejs implementation for microphone setting</p>
       </div>
     </div>
   </div>
