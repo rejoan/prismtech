@@ -1,7 +1,7 @@
 @include('includes.header')
 @include('includes.pheader')
 <!-- Service Start -->
-<div class="container-xxl pb-5">
+<div class="container-xxl pb-5 index-page">
   <div class="container">
     <div class="text-center mx-auto mb-3 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
       <h4 class="section-title">Our Services</h4>

@@ -320,7 +320,7 @@ h6,
     object-fit: cover;
     z-index: -1;
 }
-.row div.fadeInUp{
+.index-page .row div.fadeInUp{
   background: #745537;
 }
 .service-item .service-text {
@@ -335,7 +335,7 @@ div.wow a{
 .service-text img{
   filter:brightness(0) invert(1);
 }
-.row div.fadeInUp:hover {
+.index-page .row div.fadeInUp:hover {
     background: rgba(0, 0, 0, .7);
 }
 
