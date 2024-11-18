@@ -4,35 +4,13 @@
   <div class="container">
     <div class="row g-5 mt-2">
       <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <img class="img-fluid border" src="{{asset('img/tripplesevens.jpg')}}" alt="">
+        <img class="img-fluid border" src="{{asset('img/ucmg.png')}}" alt="">
       </div>
       <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <h4 class="section-title">TrippleSevens</h4>
-        <p>Developed 6+ plugin for new games. Massive admin backend data management system for game data manage.Front end game tracking by ajax</p>
+        <h4 class="section-title">UCMG Clinic Managing Admin</h4>
+        <p>UCMG sought a professional digital solution capable of meeting the diverse needs of all users, including staff, doctors, nurses, and patients. The existing processes relied on manual tasks and an outdated system that involved physical medical cards and manual data entry. Consequently, real-time information updates were lacking, leading to communication delays and a lack of transparency in the operational workflow.</p>
       </div>
     </div>
-
-    <div class="row g-5 mt-2">
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <img class="img-fluid border" src="{{asset('img/wordpress-2.jpg')}}" alt="">
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <h4 class="section-title">The Holly Effect</h4>
-        <p>Wordpress LMS</p>
-      </div>
-    </div>
-
-    <div class="row g-5 mt-2">
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <img class="img-fluid border" src="{{asset('img/wp-plugin.jpg')}}" alt="">
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <h4 class="section-title">Plugin Development</h4>
-        <p>Wordpress Custom post type development including search feature. Data syncing facility with API</p>
-        <p>More detail: <a target="_blank" class="btn btn-sm btn-dark" href="https://github.com/rejoan/syncEvents">GIT Repo</a></p>
-      </div>
-    </div>
-
   </div>
 </div>
 @include('includes.footer')

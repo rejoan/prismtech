@@ -4,35 +4,18 @@
   <div class="container">
     <div class="row g-5 mt-2">
       <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <img class="img-fluid border" src="{{asset('img/tripplesevens.jpg')}}" alt="">
+        <img class="img-fluid border" src="{{asset('img/billing-voip.jpg')}}" alt="">
       </div>
       <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <h4 class="section-title">TrippleSevens</h4>
-        <p>Developed 6+ plugin for new games. Massive admin backend data management system for game data manage.Front end game tracking by ajax</p>
+        <h4 class="section-title">VOIP Billing Data</h4>
+        <h1 class="display-5 mb-4">Massive Call Data Analytics</h1>
+        <p>Codeigniter 3 soft switch for billing (VOIP switch)</p>
+        <p>Complete billing panel for 3 different role (Admin, Reseller & CDR)</p>
+        <p>Massive data processing, performance boosting & API design for adnroid & iOS platform</p>
+        <p>CentOS 6 & 7 server administration (PHP, nginx, MySQL, Asterisk etc install, upgrade & configuration)</p>
+        <p>More detail <a target="_blank" class="btn btn-sm btn-dark" href="https://www.webcoachbd.com/tech/">Demo</a></p>
       </div>
     </div>
-
-    <div class="row g-5 mt-2">
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <img class="img-fluid border" src="{{asset('img/wordpress-2.jpg')}}" alt="">
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <h4 class="section-title">The Holly Effect</h4>
-        <p>Wordpress LMS</p>
-      </div>
-    </div>
-
-    <div class="row g-5 mt-2">
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-        <img class="img-fluid border" src="{{asset('img/wp-plugin.jpg')}}" alt="">
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <h4 class="section-title">Plugin Development</h4>
-        <p>Wordpress Custom post type development including search feature. Data syncing facility with API</p>
-        <p>More detail: <a target="_blank" class="btn btn-sm btn-dark" href="https://github.com/rejoan/syncEvents">GIT Repo</a></p>
-      </div>
-    </div>
-
   </div>
 </div>
 @include('includes.footer')
